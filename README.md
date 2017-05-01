@@ -9,4 +9,11 @@ Este repositório contém dicas e exemplos do NodeJS
 
 ## Dicas Isoladas
 
+### Limpar o console no node REPL ###
+
+```js
+'use strict';
+process.stdout.write('\x1Bc');
+```
+
 ## Sites e blogs
